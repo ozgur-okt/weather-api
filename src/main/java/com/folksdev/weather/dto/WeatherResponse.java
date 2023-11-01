@@ -1,6 +1,8 @@
 package com.folksdev.weather.dto;
 
 public record WeatherResponse (
-    Request request
+    Request request,
+    Location location,
+    Current current
 ) {
 }
